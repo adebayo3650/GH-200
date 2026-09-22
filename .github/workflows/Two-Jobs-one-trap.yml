@@ -18,5 +18,5 @@ jobs:
       - uses: actions/download-artifact@v8
         with:
           name: note.txt
-          path: path/to/artifact/note.txt
-      - run: cat path/to/artifact/note.txt
+          path: textfile
+      - run: cat textfile/note.txt
